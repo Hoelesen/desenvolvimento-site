@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+.marcador-cabecario{
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(#020202,#5e5e5e,#6d6d6d);
+  
+}
+.menu{
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    height: 150px;
+   
+}
+
+.nome-ht{
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    width: 105px;
+    height: 100px;
+    background-color:#ffffff;
+    border-radius: 5px;
+ }
+ .nomeProvedor{
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    width: 260px;
+    height: 100px;
+    font-size: 22px;
+    padding-top: 5PX;
+ }
+ .link{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 750px;
+    justify-items: start;
+    align-items: center;
+    color: white;
+    list-style:none; 
+    float:left; 
+ }
+#estiloHt{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 60px;
+}
+#estiloNome{
+    color: #ffffff;
+    text-decoration: none;}
+
+
+.link li{
+    list-style: none;
+    position:relative; 
+    float:left; 
+    
+        
+}
+.link li a{
+
+    color:#fff;
+    text-decoration:none;
+    padding:3px 8px; 
+    display:block;
+    font-size: 15px;
+    margin-left: 30px;
+    
+    }
+.link li a:hover{
+    text-decoration:underline;
+    background:#333; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+    border-radius: 4px;
+  
+    
+}
+.link li  ul{
+   
+    margin-top: 7px;
+ 
+    position:absolute; 
+    top:15px; 
+    left:0;
+    display:none;
+    white-space: nowrap;
+    
+}       
+.link li:hover ul, .menu li.hover ul{
+    display:block;
+    }
+    .link li ul li{
+    display:block; 
+    width:200px;
+}
+    

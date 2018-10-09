@@ -1,0 +1,127 @@
+*{
+    margin: 0;padding: 0;}
+.medidor{
+    justify-content: center;
+    padding-top: 80px;
+    display: flex;
+    width: 400px;
+    height: 230px;
+    background-color:#ffffff;
+    border-radius: 4px;
+}
+.principal-teste{
+    padding: 5px;
+    margin-right: 2px;  
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 500;
+    background-color: #373F51;
+ }
+ .txt-explicacao{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 460px;
+    font-size: 22px;
+    padding-top: 5PX;
+ }
+.lista-teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: initial;
+    
+}
+h1{
+   font-size: 25px;
+   text-align: center;
+   font-family:'Roboto', sans-serif;
+   color: #FFFFFA;
+   
+
+  
+}
+p{
+    margin: 8px;
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    color: #FFFFFA;
+}
+b{
+    font-size: 12px;
+}
+.titulo{
+    text-align: center;
+    
+}
+/*__________________________________Tabela inicio__________________________*/
+.tabela{
+    border-collapse: collapse;
+    margin: 0 auto;
+    min-width: 100%;
+    color: #FFFFFA;
+}
+.tabela, .tabela th, .tabela td {
+    border: 1px solid black;
+}
+.tabela th, .tabela td{
+    padding: 5px;
+    text-align: center;
+}
+.tabela th{
+    background-color: #6994d3;
+    color: #FFFFFA;
+}
+.tabela tr:nth-child(even){
+    background-color: #508991;
+}
+.tabela tr:hover{
+    background-color:rgb(125, 141, 71);
+    font-size: 28px;
+   
+}        
+.alinhado-esquerda{
+    text-align: left !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #FFFFFA;
+}
+.alinhado-esquerda:hover{
+    font-size: 28px;
+}
+/*__________________________________Tabela Fim______________________________*/
+
+
+/*__________________________________Dados teste Inicio______________________________*/
+.dados-teste{
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 230px;
+    background-color: #fff;
+}
+
+ul.dados li{
+    list-style: none;
+    padding: 4px;
+}
+ul.dados li a{
+    text-decoration: none;
+    color: black;   
+}
+ul.dados li a:hover{
+    text-decoration: underline;
+}
+
+ul.dados li:before{
+   content: '';
+   display: inline-block;
+   height: 12px;
+   width: 12px;
+   background-image: url(../Imagens/footer/checked-border.svg);
+   background-repeat: no-repeat;
+   padding-right: 3px;
+}
+/*__________________________________Dados teste Inicio______________________________*/
