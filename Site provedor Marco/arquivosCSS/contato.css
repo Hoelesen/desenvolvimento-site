@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*________________________________________________Corpo______________________________________*/
+.div1{
+    background-color: #373F51;
+    display: flex;
+    width: 1200px;
+    height: 800px;
+    
+
+}
+.div1-2{
+   margin-right: 20px;
+    width: 250px;
+    height: 800px;
+    border-right:3px solid #817373;
+   
+
+}
+.div1-3{
+    /* background-color: rgb(62, 63, 53); */
+    width: 510px;
+    height: 800px;
+
+}
+.div1-4{
+    padding: 5px;
+    /* background-color: rgb(255, 0, 212); */
+    width: 450px;
+    height: 800px;;
+    display: flex;
+    flex-direction: column;
+
+}
+.div1-4-1{
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+
+}
+.div1-4-2{
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    
+
+
+}
+.div1-4-3{
+   
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+
+}
+
+/*________________________________________________Corpo______________________________________*/
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+p{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 15px;
+    
+
+}
+p:hover{
+    background:#333; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+    border-radius: 4px;
+}
+.iconecontato{
+    width: 80px;
+    padding-top: 40px;
+/* background-color: rgb(161, 25, 25); */
+    display: flex;
+    justify-content: center;
+    border-right:3px solid #817373;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 4px;
+
+}
+#endereco{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 80px;
+    font-size: 30px;
+    color: #fff;   
+    margin-left: 20px;
+    margin-bottom: 10px;    
+    border-bottom:3px solid #817373 ; 
+   
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+/*____________________________________________formulario Viabilidade__________________________________________*/
+.formulario-contato{
+   
+    padding: 20px;
+    width: 400px;
+    height: 480px;
+   
+}
+.linha-formulario-contato{
+   font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+  
+}
+.linha-formulario-contato input[type=text], .linha-formulario input[type=number]{
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.radio-contato{
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 5px;
+}
+.mensagem-contato{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-salvar-contato{
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background-color: rgb(10, 10, 10) 10px;
+    font-size: 20px;
+    color:#000;
+    border: 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-salvar-contato:hover{
+
+    background-color: rgba(11, 168, 11, 0.733);
+}
+  /* .autorizacao{
+      color: #ffffff
+  } */
+/* .h1{
+    color: #ffffff
+}    */
+
+#fale{
+    color:#fff;
+    font-size: 35px;
+    margin-left: 130px;
+    text-transform: uppercase;
+    border-bottom:solid 4px #817373;
+    
+   
+}
+
+
+
+ /*____________________________________________formulario Viabilidade__________________________________________*/
+
+ #myVideo {
+    position: initial;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    height: 800px;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    max-width: 250px;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+
+ }

@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*________________________________________________Corpo______________________________________*/
+.div1{
+    display: flex;
+    background-color: aqua;
+    width: 1200px;
+    height: 800px;;
+
+}
+.div1-2{
+    background-color: rgb(0, 255, 98);
+    width: 250px;
+    height: 800px;
+
+}
+.div1-3{
+    background-color: rgb(62, 63, 53);
+    width: 450px;
+    height: 800px;;
+
+}
+.div1-4{
+    padding: 5px;
+    background-color: rgb(255, 0, 212);
+    width: 500px;
+    height: 800px;;
+    display: flex;
+    flex-direction: column;
+
+}
+.div1-4-1{
+    margin-left: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+
+}
+.div1-4-2{
+    margin-left: 40px;
+    background-color: rgb(141, 37, 37);
+    width: 400px;
+    height: 200px;
+
+}
+.div1-4-3{
+    margin-left: 40px;
+    background-color: rgb(68, 58, 58);
+    width: 400px;
+    height: 200px;
+
+}
+
+/*________________________________________________Corpo______________________________________*/
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+p{
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 15px;
+
+}
+p:hover{
+    background:#333; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+    border-radius: 4px;
+}
+.iconecontato{
+    width: 80px;
+    padding-top: 40px;
+/* background-color: rgb(161, 25, 25); */
+    display: flex;
+    justify-content: center;
+    border-right:3px solid #000000;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 4px;
+
+}
+#endereco{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 80px;
+    font-size: 30px;
+    color: #fff;   
+    margin-left: 40px;
+    border-bottom:3px solid #000000; 
+   
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+/*____________________________________________formulario Viabilidade__________________________________________*/
+.formulario-contato{
+    
+    padding: 20px;
+    width: 400px;
+    height: 480px;
+    padding: 0px;
+}
+.linha-formulario-contato{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+  
+}
+.linha-formulario-contato input[type=text], .linha-formulario input[type=number]{
+    max-width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.radio-contato{
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 5px;
+}
+.mensagem-contato{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-enviar-contato{
+    margin-top: 20px;
+    margin-left: 122px;
+    background-color: rgb(10, 10, 10) 10px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-enviar-contato:hover{
+
+    background-color: rgba(11, 168, 11, 0.733);
+}
+  .autorizacao{
+      color: #ffffff
+  }
+.h1{
+    color: #ffffff
+}
+ /*____________________________________________formulario Viabilidade__________________________________________*/
+
+ #myVideo {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    max-width: 250px;
+    max-height: 800px;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    max-width: 250px;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+
+ }

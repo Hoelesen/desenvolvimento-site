@@ -6,7 +6,6 @@
 .marcador-cabecario{
     display: flex;
     align-items: center;
-    
     background: linear-gradient(#020202,#5e5e5e,#6d6d6d);
   
 }

@@ -28,14 +28,6 @@
     width: 740px;
     height: 480px;
     padding: 0px;
-    
-}
-.formulario{
-    
-    padding: 20px;
-    width: 400px;
-    height: 480px;
-    padding: 0px;
 }
 .div2-1{
     display: flex;
@@ -55,6 +47,14 @@
     
 }
 
+/*____________________________________________formulario Viabilidade__________________________________________*/
+.formulario{
+    
+    padding: 20px;
+    width: 400px;
+    height: 480px;
+    padding: 0px;
+}
 .linha-formulario{
     color: #ffffff;
     display: flex;
@@ -102,4 +102,4 @@
 .h1{
     color: #ffffff
 }
- 
+ /*____________________________________________formulario Viabilidade__________________________________________*/
