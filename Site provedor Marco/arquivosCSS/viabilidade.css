@@ -17,34 +17,29 @@
     display: flex;
     background-color: #373F51;
     width: 1200px;
-    height: 600px;
+    height: 750px;
     
 }
-.fundomapa{
-    margin-left: 20px;
-    background-color: #373F51;
-    width: 740px;
-    height: 480px;
-    padding: 0px;
-}
+
 .div2-1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 5px;
-    background-color: #373F51;
     font-size: 35px;
     width: 730px;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
     color: #ffffff;
     
 }
 .div2-2{
     margin: 5px;
     width: 730px;
-    height: 520px;
+    height: 620px;
 }
+
 
 /*###########################*/
 /*Formulario de Viabilidades*/
@@ -99,8 +94,14 @@
       color: #ffffff
   }
 .h1{
-    color: #ffffff
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    
 }
 p{
      font-family:'Roboto', sans-serif;
+}
+
+#chamada{
+    font-family: 'Noto Sans', sans-serif;
 }
