@@ -9,20 +9,31 @@
     <link rel="stylesheet" href="../arquivosCSS/geral.css">
     <link rel="stylesheet" href="../arquivosCSS/rodape.css">
     <link rel="stylesheet" href="../arquivosCSS/contato.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Niramit|Roboto" rel="stylesheet">
    
 </head>
-
+<!--########################--->
+<!--Back Groud plano de fundo-->
+<!--########################--->
 <body class="fundocolor">
+     <!--########################--->
+    <!--------Cabeçario------------>
+    <!--########################--->
     <div class="marcador-cabecario">
-
         <header class="box">
             <nav class="menu">
+                 <!--########################--->
+                <!--------icone e nome---------->
+                <!--########################--->
                 <div class="nome-ht">
                     <a href="#" id="estiloHt">HT</a>
                 </div>
                 <div class="nomeProvedor">
                     <a href="#" id="estiloNome">PROVEDOR HIGH TECH</a>
                 </div>
+                <!--########################--->
+                <!--------lista Menu------------>
+                <!--########################--->
                 <div class="link">
                     <ul class="link">
                         <li><a href="index.html">INÍCIO</li></a>
@@ -32,37 +43,30 @@
                                 <li><a href="viabilidade.html">VIABILIDADES</li></a>
                                 <li><a href="testeConexao.html">TESTE SUA CONEXÃO</li></a>
                             </ul>
-                       
                         </li>
-                        
                         <li><a href="http://hightechforum.org/">FORUM NOVIDADES</li></a>
-                        <li><a href="#">CONTATO</li></a>
-                        <li><a href="#"><img src="../Imagens/cabecario/call.svg" width="40" height="30"></li></a>
-                        
+                        <li><a href="contatos.html">CONTATO</li></a>
+                        <li><a href="contatos.html"><img src="../Imagens/cabecario/call.svg" width="40" height="30"></li></a>
                     </ul>
                 </div>
             </nav>
         </header>
-
     </div>
+    <!--########################--->
+    <!----lista Conteudo Contato--->
+    <!--########################--->
     <main class="box">
-        <div class="div1"><!--1-->
-<div class="div1-2"><!--1-2-->
-
-
+        <div class="tela-pai">
+<div class="video">
     <video autoplay muted loop id="myVideo">
         <source src="../VIDEO/2.mp4" type="video/mp4" >
         Seu browser nao suporta video HTML5.
       </video>
-      
-      <!-- <div class="content">
-        <h2>Heading</h2>
-        <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
-        <button id="myBtn" onclick="myFunction()">Pause</button> -->
-
-
-</div><!--1-2-->
-<div class="div1-3"><!--1-3-->
+</div>
+<div class="coluna-endereco">
+    <!--########################--->
+    <!------Formulário Contato----->
+    <!--########################--->
     <form>
         <span id="fale"> Fale Conosco</span>
             <div class="linha-formulario-contato">
@@ -72,7 +76,6 @@
                             <option value="Financeiro">Financeiro</option> 
                             <option value="Vendas">Vendas</option> 
                             <option value="Suporte">Suporte</option> 
-                           
                     </select>
                 </div>
         <div class="linha-formulario-contato">
@@ -83,15 +86,7 @@
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email" placeholder="Informe seu email" required>
             </div>
-        <!-- <div class="linha-formulario">
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" max="120" min="0" required>
-        </div> -->
-        <!-- <div class="linha-formulario">
-            <span>Sexo:</span>
-            <input type="radio" id="sexo_m" name="sexo"><label for="sexo_m">Masculino</label>
-            <input type="radio" id="sexo_f" name="sexo" checked><label for="sexo_f">Feminino</label>
-        </div> -->
+        
         <div class="linha-formulario-contato">
             <label for="estado">Selecione um estado:</label>
             <select id="estado" name="estado" class="estado">
@@ -140,16 +135,13 @@
             <label for="mensagem">Mensagem: </label>
             <textarea id="mensagem" name="mensagem" class="mensagem" placeholder="Digite aqui sua Duvida ou sugestão."></textarea>
         </div>
-        <!--<div class="linha-formulario">
-            <input type="checkbox" id="termos" name="termos">
-            <label for="termos">Aceita os termos do contrato?</label>
-        </div>-->
+        
         <input type="submit" value="Enviar" class="btn-salvar-contato">
     </form>
 
-</div><!--1-3-->
-<div class="div1-4"><!--1-4-->
-    <div class="div1-4-1"><!--1-4-1-->
+</div>
+<div class="div1-4">
+    <div class="div1-4-1">
         <div class="iconecontato">
             <a href="#"><img src="../Imagens/cabecario/call.svg" width="40" height="30"></a>
         </div>
@@ -175,35 +167,27 @@
 
         </div>
 
-    </div><!--1-4-1-->
+    </div>
     <div id="endereco">
         <span>Endereço</span>    
     </div>
-    <div class="div1-4-2"><!--1-4-2-->
+    <div class="endereco1">
         <p>
          CURITIBA | FÁBRICA E MATRIZ
          R. PARAIBA , 000 - CENTRO
          CURITIBA - PR  
         </p>
-    </div><!--1-4-2-->
-    <div class="div1-4-3"><!--1-4-3-->
+    </div>
+    <div class="endereco2">
         <p>
         SÃO PAULO | ESCRITÓRIO DE VENDAS
         AV. PAULISTA, 000 - PQ SÃO PAULO
         SÃO PAULO - SÃO PAULO
         </p>
-    </div><!--1-4-3-->
+    </div>
     
-</div><!--4-->
-
-
-
-
-
-
-        </div>
-        
-    </main>
+</div>
+  </main>
     <footer class="marcador-rodape">
         <div class="box-rodape">
             <div class="rodape">

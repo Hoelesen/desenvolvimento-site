@@ -58,14 +58,12 @@
     color: #ffffff;
     text-decoration: none;}
 
-
 .link li{
     list-style: none;
     position:relative; 
     float:left; 
-    
-        
 }
+
 .link li a{
 
     color:#fff;
@@ -74,7 +72,6 @@
     display:block;
     font-size: 15px;
     margin-left: 30px;
-    
     }
 .link li a:hover{
     text-decoration:underline;
@@ -84,13 +81,10 @@
     -webkit-box-shadow:0 3px 10px 0 #ccc; 
     text-shadow:0px 0px 5px #fff; 
     border-radius: 4px;
-  
     
 }
 .link li  ul{
-   
     margin-top: 7px;
- 
     position:absolute; 
     top:15px; 
     left:0;
@@ -101,7 +95,7 @@
 .link li:hover ul, .menu li.hover ul{
     display:block;
     }
-    .link li ul li{
+.link li ul li{
     display:block; 
     width:200px;
 }

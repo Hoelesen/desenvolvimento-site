@@ -1,33 +1,37 @@
 *{
     margin: 0;padding: 0;}
+
 .medidor{
     justify-content: center;
     padding-top: 80px;
     display: flex;
     width: 400px;
-    height: 230px;
+    height: 346px;
     background-color:#ffffff;
-    border-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
-.principal-teste{
+.principal-tela{
     padding: 5px;
+    padding-top: 30PX;
     margin-right: 2px;  
     display: flex;
     flex-direction: row;
     width: 1100px;
-    height: 500;
+    height: 730PX;
     background-color: #373F51;
  }
  .txt-explicacao{
     margin-left: 10px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     width: 800px;
-    height: 460px;
     font-size: 22px;
     padding-top: 5PX;
+    
  }
-.lista-teste{
+.lista-format{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +46,7 @@ h1{
   
 }
 p{
-    margin: 8px;
+    margin: 12px;
     font-family:'Roboto', sans-serif;
     font-size: 22px;
     color: #FFFFFA;
@@ -54,14 +58,18 @@ b{
     text-align: center;
     
 }
-/*__________________________________Tabela inicio__________________________*/
+/*----------------------*/
+/*-------TAbela---------*/
+/*----------------------*/
 .tabela{
     border-collapse: collapse;
     margin: 0 auto;
     min-width: 100%;
     color: #FFFFFA;
+    margin-top: 30px;
 }
 .tabela, .tabela th, .tabela td {
+    
     border: 1px solid black;
 }
 .tabela th, .tabela td{
@@ -81,6 +89,7 @@ b{
    
 }        
 .alinhado-esquerda{
+  
     text-align: left !important;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -89,16 +98,19 @@ b{
 .alinhado-esquerda:hover{
     font-size: 28px;
 }
-/*__________________________________Tabela Fim______________________________*/
 
+/*----------------------------*/
+/*---Dados teste de Conexão---*/
+/*----------------------------*/
 
-/*__________________________________Dados teste Inicio______________________________*/
-.dados-teste{
+.dados-lista{
     justify-content: center;
     display: flex;
     width: 400px;
-    height: 230px;
+    height: 303px;
     background-color: #fff;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 ul.dados li{
@@ -122,4 +134,3 @@ ul.dados li:before{
    background-repeat: no-repeat;
    padding-right: 3px;
 }
-/*__________________________________Dados teste Inicio______________________________*/

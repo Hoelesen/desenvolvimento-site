@@ -2,32 +2,27 @@
     margin: 0;
     padding: 0;
 }
-/*________________________________________________Corpo______________________________________*/
-.div1{
+/*###########################*/
+/*##########Corpo###########*/
+/*###########################*/
+.tela-pai{
     background-color: #373F51;
     display: flex;
     width: 1200px;
-    height: 800px;
-    
-
+    height: 800px;  
 }
-.div1-2{
+.video{
    margin-right: 20px;
     width: 250px;
     height: 800px;
     border-right:3px solid #817373;
-   
-
 }
 .div1-3{
-    /* background-color: rgb(62, 63, 53); */
     width: 510px;
     height: 800px;
-
 }
 .div1-4{
     padding: 5px;
-    /* background-color: rgb(255, 0, 212); */
     width: 450px;
     height: 800px;;
     display: flex;
@@ -46,39 +41,32 @@
     height: 400px;
 
 }
-.div1-4-2{
+.endereco1{
     margin-left: 20px;
     width: 400px;
     height: 100px;;
     background-color: #fff;
     border-radius: 5px;
     margin-bottom: 40px;
-    
-
 
 }
-.div1-4-3{
+.endereco2{
    
     margin-left: 20px;
     background-color: #fff;
     border-radius: 5px;
     width: 400px;
-    height: 100px;
+    height: 130px;
 
 }
-
-/*________________________________________________Corpo______________________________________*/
-
-
-/*--------------------------------------------------------------------------------------------------*/
-
+/*###########################*/
+/*Formulario de Viabilidades*/
+/*###########################*/
 p{
     margin-left: 40px;
     margin-top: 20px;
     margin-right: 40px;
     padding: 15px;
-    
-
 }
 p:hover{
     background:#333; 
@@ -91,7 +79,6 @@ p:hover{
 .iconecontato{
     width: 80px;
     padding-top: 40px;
-/* background-color: rgb(161, 25, 25); */
     display: flex;
     justify-content: center;
     border-right:3px solid #817373;
@@ -113,9 +100,9 @@ p:hover{
    
 
 }
-/*--------------------------------------------------------------------------------------------------*/
-
-/*____________________________________________formulario Viabilidade__________________________________________*/
+/*###########################*/
+/*Formulario de Viabilidades*/
+/*###########################*/
 .formulario-contato{
    
     padding: 20px;
@@ -164,27 +151,13 @@ p:hover{
 
     background-color: rgba(11, 168, 11, 0.733);
 }
-  /* .autorizacao{
-      color: #ffffff
-  } */
-/* .h1{
-    color: #ffffff
-}    */
-
 #fale{
     color:#fff;
     font-size: 35px;
     margin-left: 130px;
     text-transform: uppercase;
     border-bottom:solid 4px #817373;
-    
-   
 }
-
-
-
- /*____________________________________________formulario Viabilidade__________________________________________*/
-
  #myVideo {
     position: initial;
     right: 0;
@@ -192,7 +165,6 @@ p:hover{
     width: 280px;
     height: 800px;
 }
-
 .content {
     position: fixed;
     bottom: 0;
@@ -201,7 +173,6 @@ p:hover{
     max-width: 250px;
     padding: 20px;
 }
-
 #myBtn {
     width: 200px;
     font-size: 18px;
@@ -211,9 +182,13 @@ p:hover{
     color: #fff;
     cursor: pointer;
 }
-
 #myBtn:hover {
     background: #ddd;
     color: black;
-
+ }
+ p{
+    font-family: 'Lato', sans-serif;
+ }
+ span{
+    font-family: 'Roboto', sans-serif;
  }

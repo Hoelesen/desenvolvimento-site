@@ -33,3 +33,7 @@
 #text-footer{
     vertical-align: super;
 }
+span a{
+    text-decoration: none;
+
+}

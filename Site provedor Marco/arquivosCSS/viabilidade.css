@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-  
 }
 .fundocolor-viabilidade{
     background-color: #373F51;
@@ -18,11 +17,10 @@
     display: flex;
     background-color: #373F51;
     width: 1200px;
-    height: 500px;
+    height: 600px;
     
 }
 .fundomapa{
-    
     margin-left: 20px;
     background-color: #373F51;
     width: 740px;
@@ -38,21 +36,23 @@
     font-size: 35px;
     width: 730px;
     height: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
     
 }
 .div2-2{
     margin: 5px;
     width: 730px;
-    height: 430px;
-    
+    height: 520px;
 }
 
-/*____________________________________________formulario Viabilidade__________________________________________*/
+/*###########################*/
+/*Formulario de Viabilidades*/
+/*###########################*/
 .formulario{
-    
     padding: 20px;
     width: 400px;
-    height: 480px;
+    height: 585px;
     padding: 0px;
 }
 .linha-formulario{
@@ -79,11 +79,10 @@
     border: 1px solid black;
 }
 .btn-enviar{
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 122px;
     background-color: rgb(10, 10, 10) 10px;
     font-size: 20px;
-    color: white;
     border: 0;
     text-align: center;
     padding: 10px;
@@ -102,4 +101,6 @@
 .h1{
     color: #ffffff
 }
- /*____________________________________________formulario Viabilidade__________________________________________*/
+p{
+     font-family:'Roboto', sans-serif;
+}
