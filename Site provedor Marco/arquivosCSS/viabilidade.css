@@ -45,7 +45,9 @@
 /*Formulario de Viabilidades*/
 /*###########################*/
 .formulario{
+    
     padding: 20px;
+    padding-bottom: 10px;
     width: 400px;
     height: 585px;
     padding: 0px;
@@ -54,7 +56,7 @@
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 7px;
+    padding: 15px;
   
 }
 .linha-formulario input[type=text], .linha-formulario input[type=number]{
@@ -91,6 +93,8 @@
     height: 100%;
   }
   .autorizacao{
+      padding-top: 20px;
+      padding-bottom: 20px;
       color: #ffffff
   }
 .h1{
