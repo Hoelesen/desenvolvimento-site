@@ -17,8 +17,9 @@
     height: 800px;
     border-right:3px solid #817373;
 }
-.div1-3{
-    width: 510px;
+.coluna-endereco{
+    margin-top: 10px;
+    width: 500px;
     height: 800px;
 }
 .div1-4{
@@ -154,7 +155,7 @@ p:hover{
 #fale{
     color:#fff;
     font-size: 35px;
-    margin-left: 130px;
+    margin-left: 20px;
     text-transform: uppercase;
     border-bottom:solid 4px #817373;
 }
